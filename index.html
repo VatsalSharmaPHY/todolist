@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="todolist.css">
+</head>
+<body>
+
+	<div id="title"><p>To-Do List</p></div>
+
+	<div id="new">
+		
+		<div id="inpt">
+			<label for="inpt">Enter new Task:</label>
+			<input type="text" name="inpt" id="input">
+		</div>
+
+		<div id="ad">
+			<input type="submit" name="add" id="add" value="Add" onclick="add()">
+		</div>
+
+		<div id="cl">
+			<input type="submit" name="clear" id="clear" value="Clear The List" onclick="cleara()">
+		</div>
+	</div>
+
+	<div id="task">
+		<ul id="list"><li>Your tasks appear here</li></ul>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="todolist.js"></script>
+
+</html>
